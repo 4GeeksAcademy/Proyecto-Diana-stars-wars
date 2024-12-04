@@ -1,0 +1,72 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none; /* Eliminar bordes predeterminados */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evitar que contenido salga de los bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar la sombra */
+}
+
+.card-img-top {
+    border-bottom: 2px solid #ddd; /* Línea de separación */
+    object-fit: cover; /* Asegurar que la imagen se ajuste */
+    height: 200px; /* Tamaño fijo para las imágenes */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333; /* Color del título */
+}
+
+.card-text {
+    color: #555; /* Color del texto descriptivo */
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul clásico */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+.btn-outline-warning {
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #fff; /* Texto blanco en el hover */
+}
+
+.fa-heart {
+    transition: transform 0.2s ease;
+}
+
+.fa-heart:hover {
+    transform: scale(1.2); /* Aumentar tamaño al pasar el mouse */
+}
+
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.navbar-brand {
+    cursor: pointer; /* Indicar que es clicable */
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}

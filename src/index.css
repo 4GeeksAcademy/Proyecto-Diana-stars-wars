@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://res.allmacwallpaper.com/pic/Thumbnails/21016_728.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+ 
+.card {
+    background-color: #f1e1e1;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    max-width: 350px;
+    margin: 40px auto; 
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-40px); 
+    box-shadow: 0 8px 16px rgba(36, 127, 118, 0.2); 
+  }
+  
+
+  .card-body {
+    padding: 50px; 
+    text-align: center; 
+   
+  }
+  
+
+  .card-title {
+    font-size: 25px; 
+    font-weight: bold; 
+    color: rgb(32, 32, 22);
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .card-text {
+    font-size: 1rem;
+    color: #9476a9; 
+    margin-bottom: 8px; 
+    line-height: 1.2;
+    
+  }
+   .card{
+    font-size: 1rem;
+    color: #9476a9; 
+    margin-bottom: 8px; 
+    line-height: 1.2;
+   }
+ 
+  .btn {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
